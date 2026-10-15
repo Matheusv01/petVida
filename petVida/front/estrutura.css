@@ -1,0 +1,30 @@
+
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+div {
+  width: 80%;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+
+h1 {
+  color: rgb(0, 123, 206);
+  text-align: center;
+}
+
+
+h2 {
+  color: rgb(0, 123, 206);
+  border-bottom: 1px solid #ccc;
+}
+
+ul {
+  margin-left: 20px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>PetVida</title>
+  <link rel="stylesheet" href="estrutura.css">
+</head>
+<body>
+
+  <div>
+    <h1>Atividade IV - Banco de Dados PetVida</h1>
+
+    <h2>1. Contextualização e Problemas</h2>
+    <p>A clínica PetVida usava papel e planilhas, o que gerava:</p>
+    <ul>
+      <li>Dados repetidos de clientes e pets</li>
+      <li>Falta de atualização de telefones e endereços</li>
+      <li>Perda de histórico de consultas</li>
+    </ul>
+
+    <h2>2. Proposta de Melhoria</h2>
+    <p>Criação de um banco de dados MySQL para organizar as tabelas e garantir que nenhum dado fique perdido.</p>
+
+    <img src="diagrama-dominio.png" alt="Diagrama do Banco de Dados" title="diagrama da aplicação petvida">
+
+    <h2>3. Formas Normais</h2>
+    <ul>
+      <li><b>1FN:</b> Dados organizados e sem listas na mesma célula.</li>
+      <li><b>2FN:</b> Tabelas com Chave Primária (ID).</li>
+      <li><b>3FN:</b> Colunas dependem apenas da chave principal.</li>
+      <li><b>4FN:</b> Separação de relacionamentos independentes.</li>
+    </ul>
+
+    <h2>4. Tabelas Criadas</h2>
+    <p>As tabelas do projeto são: <b>clientes, pets, veterinarios, consultas, prescricoes e veterinarios</b>.</p>
+  </div>
+
+</body>
+</html>
